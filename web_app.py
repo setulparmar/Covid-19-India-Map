@@ -6,7 +6,7 @@ import folium
 
 app=dash.Dash(__name__)
 server=app.server
-app.layout=html.Div([html.H1('Covid19-India-Map(By Setul Parmar)'),html.Iframe(id='map',srcDoc=open('Covid19India.html','r').read(),width='100%',height='600')])
+app.layout=html.Div([html.H1('Covid19-India-Map(By Setul Parmar)'),html.H4('source:https://www.mohfw.gov.in/'),html.Iframe(id='map',srcDoc=open('Covid19India.html','r').read(),width='100%',height='600')])
 
 app.scripts.config.serve_locally = True
 app.css.config.serve_locally = True
