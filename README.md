@@ -1,5 +1,5 @@
 # Covid-19-India-Map
-This is a descent and unique Covid 19 Map of india build by me using folium and dash modules in python and deployed on heroku cloud.
+This is a descent and unique Covid 19 Map of india build using folium and dash modules in python and deployed on heroku cloud.
 
 Web-App link : https://map-by-setul.herokuapp.com/
 (Last updated on 10th may)
