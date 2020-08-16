@@ -15,7 +15,6 @@ app.layout=html.Div(style={'backgroundColor':'#111111'},children=[html.H1('Covid
                                                                           style={'color':'#7FDBFF'}),
                                                                   html.H5('The First and Second number denotes Total cases and Recovered cases of respective states.',
                                                                           style={'color':'#7FDBFF'}),html.H6('Source:https://www.mohfw.gov.in/',style={'color':'#7FDBFF'}),
-                                                                  html.H5('Link to github repositary : ',html.A(n_clicks='1',href = link)),
                                                                   html.Iframe(id='map',srcDoc=open('Covid19India.html','r').read(),width='100%',height='580'),
                                                                   html.H4('Dataset updated on:10 May 2020',style={'color':'#7FDBFF'})])
 
